@@ -27,6 +27,8 @@ int main() {
 	for (int i = 0; i < vec.size(); i++)
 		fout << vec[i].getArea() << endl;
 
+	cout << "Checking...." << endl;
+
 	fout.close();
 
 	return 0;
